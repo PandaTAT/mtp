@@ -261,8 +261,8 @@ debug_mtp() {
 }
 
 config_systemd(){
-  wget -P $WORKDIR https://raw.githubusercontent.com/wulabing/mtp/master/run.sh && chmod +x $WORKDIR/run.sh
-  wget -P $mtproxy_service_dir https://raw.githubusercontent.com/wulabing/mtp/master/mtproxy.service
+  wget -P $WORKDIR https://raw.githubusercontent.com/PandaTAT/mtp/master/run.sh && chmod +x $WORKDIR/run.sh
+  wget -P $mtproxy_service_dir https://raw.githubusercontent.com/PandaTAT/mtp/master/mtproxy.service
   systemctl daemon-reload && systemctl enable mtproxy
 }
 
