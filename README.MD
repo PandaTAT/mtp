@@ -1,8 +1,7 @@
 ## MTproxy TLS 一键安装脚本
+基于 https://github.com/sunpma/mtp 修改 基本使用方法请参考上游
 
-基于 https://github.com/sunpma/mtp 修改
-基本使用方法请参考上游
-执行如下代码
+执行如下代码安装
 ```bash
 mkdir /home/mtproxy && cd /home/mtproxy
 curl -s -o mtproxy.sh https://raw.githubusercontent.com/PandaTAT/mtp/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
